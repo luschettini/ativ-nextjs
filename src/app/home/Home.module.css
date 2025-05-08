@@ -31,7 +31,7 @@ padding: 0.5rem 2.5rem;
 .button {
     padding: 10px 20px;
     margin: 20px;
-    background-color: blue;
+    background-color: rgb(255, 32, 144);
     color: white;
     border-radius: 5px;
 }

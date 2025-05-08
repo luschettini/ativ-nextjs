@@ -5,7 +5,13 @@ import Image from "next/image";
 export default function Loading() {
     return (
         <div className={styles.loading}>
-            <Image width="100" height="100" src="/images/world.gif" alt="Loading" />
+            <Image 
+                src="/images/world.gif" 
+                alt="Loading" 
+                width={400} 
+                height={300}
+                priority={true}
+            />
             <p>Carregando países...</p>
         </div>
     );
