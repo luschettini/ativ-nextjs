@@ -4,13 +4,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: lightblue;
+    background-color: rgb(189, 237, 175);
 }
 
 .button {
     margin: 5px;
     padding: 10px 15px;
-    background-color: blue;
+    background-color: rgb(94, 203, 131);
     color: white;
     border-radius: 5px;
 }
@@ -18,7 +18,7 @@
 .buttonReset {
     margin: 5px;
     padding: 10px 15px;
-    background-color: green;
+    background-color: rgb(65, 165, 73);
     color: white;
     border-radius: 5px;
 }
@@ -39,4 +39,3 @@
     border: none;
     border-radius: 8px;
 }
-
